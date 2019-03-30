@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "charge serve source",
-    "deploy": "charge build source target && <deploy command here>"
+    "build": "charge build source target",
+    "now-build": "npm run build"
   },
   "repository": {
     "type": "git",
