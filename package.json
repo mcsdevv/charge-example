@@ -1,0 +1,23 @@
+{
+  "name": "charge-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "charge serve source",
+    "deploy": "charge build source target && <deploy command here>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msweeneydev/charge-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msweeneydev/charge-example/issues"
+  },
+  "homepage": "https://github.com/msweeneydev/charge-example#readme",
+  "devDependencies": {
+    "@static/charge": "^1.2.0"
+  }
+}
