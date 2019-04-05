@@ -1,11 +1,11 @@
 {
   "version": 2,
   "name": "charge",
+  "regions": ["sfo1"],
   "builds": [
     {
       "src": "package.json",
-      "use": "@now/static-build",
-      "config": { "distDir": "public" }
+      "use": "@now/static-build"
     }
   ]
 }
